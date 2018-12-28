@@ -82,7 +82,7 @@ module.exports = function (XMLData, msg, status) {
                     else {
                         if (type == 'fix') return [XMLData["index"][i].name, XMLData["index"][i].ans[j]];
                         else if (type == 'random' && XMLData["index"][i].name == 'joke') {
-                            var randomnumber = Math.floor(Math.random() * ((XMLData["index"][i].ans.length) / 2));
+                            var randomnumber = Math.floor(Math.random() * ((XMLData["index"][i].ans.length) / 2) / 2 + 0.5) * 2;
                             return [XMLData["index"][i].name, XMLData["index"][i].ans[randomnumber], XMLData["index"][i].ans[randomnumber + 1]];
                         }
                         else if (type == 'random') return [XMLData["index"][i].name, XMLData["index"][i].ans[Math.floor(Math.random() * XMLData["index"][i].ans.length)]];
@@ -95,7 +95,7 @@ module.exports = function (XMLData, msg, status) {
                     else {
                         if (type == 'fix') return [XMLData["index"][i].name, XMLData["index"][i].ans[j]];
                         else if (type == 'random' && XMLData["index"][i].name == 'joke') {
-                            var randomnumber = Math.floor(Math.random() * ((XMLData["index"][i].ans.length) / 2));
+                            var randomnumber = Math.floor(Math.random() * ((XMLData["index"][i].ans.length) / 2) / 2 + 0.5) * 2;
                             return [XMLData["index"][i].name, XMLData["index"][i].ans[randomnumber], XMLData["index"][i].ans[randomnumber + 1]];
                         }
                         else if (type == 'random') return [XMLData["index"][i].name, XMLData["index"][i].ans[Math.floor(Math.random() * XMLData["index"][i].ans.length)]];

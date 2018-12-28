@@ -1,26 +1,26 @@
 {
-  "_from": "zenomodule@^0.1.3",
+  "_from": "zenomodule@^0.1.4",
   "_inBundle": false,
-  "_integrity": "sha512-E/vkqvvfrkz3/uri0VXqxiVAPRbWYHrrFYfrkAlT2MXXlACtwQS6EahspctOVlAKXAmj3GP68pKZNbo2c+WcnQ==",
+  "_integrity": "sha512-/ovvmrRhLY0YAtQ6QzTSWlrBMKaWy3h4ANhpQQUIzL+SIllKwAk3JjZS5U5Z1aDo4aL5YrDNXcEYndhAjfvFqA==",
   "_location": "/zenomodule",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "zenomodule@^0.1.3",
+    "raw": "zenomodule@^0.1.4",
     "name": "zenomodule",
     "escapedName": "zenomodule",
-    "rawSpec": "^0.1.3",
+    "rawSpec": "^0.1.4",
     "saveSpec": null,
-    "fetchSpec": "^0.1.3"
+    "fetchSpec": "^0.1.4"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zenomodule/-/zenomodule-0.1.4.tgz",
-  "_shasum": "9feb2f3f28cb3520585ddcfa0b8181f2d1e15771",
-  "_spec": "zenomodule@^0.1.3",
+  "_resolved": "https://registry.npmjs.org/zenomodule/-/zenomodule-0.1.5.tgz",
+  "_shasum": "95a867efb1b3193dc0f7a32099a197069b2c01b8",
+  "_spec": "zenomodule@^0.1.4",
   "_where": "E:\\zenop\\Documents\\TGR2019\\Shared Files\\Line_API\\Beacon\\rumueraibeacon",
   "author": "Phakhawat Chullamonthon <zeno.phakhawat@hotmail.com> (https://github.com/zenophakhawat/gonoz)",
   "bugs": {
@@ -52,5 +52,5 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
-  "version": "0.1.5"
+  "version": "0.1.6"
 }
