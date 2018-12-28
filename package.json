@@ -1,42 +1,35 @@
 {
-  "_from": "zenomodule",
+  "_from": "zenomodule@^0.1.3",
   "_inBundle": false,
-  "_integrity": "sha512-AeJSJtlwUtSWtnpJgFjWDXT+p/ILVP1pZZ9G15Kv0OiK0dFCMrjMNScU6k1+FwIrTug3bApqTdNpt2ZGNx3qQw==",
+  "_integrity": "sha512-E/vkqvvfrkz3/uri0VXqxiVAPRbWYHrrFYfrkAlT2MXXlACtwQS6EahspctOVlAKXAmj3GP68pKZNbo2c+WcnQ==",
   "_location": "/zenomodule",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "zenomodule",
+    "raw": "zenomodule@^0.1.3",
     "name": "zenomodule",
     "escapedName": "zenomodule",
-    "rawSpec": "",
+    "rawSpec": "^0.1.3",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^0.1.3"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zenomodule/-/zenomodule-0.1.1.tgz",
-  "_shasum": "e54e5c7fb5d080483e0af0a59d5d3d9fdb9f4021",
-  "_spec": "zenomodule",
-  "_where": "E:\\zenop\\Documents\\TGR2019\\Shared Files\\Line_API\\ZenBot\\rumuerai2",
+  "_resolved": "https://registry.npmjs.org/zenomodule/-/zenomodule-0.1.4.tgz",
+  "_shasum": "9feb2f3f28cb3520585ddcfa0b8181f2d1e15771",
+  "_spec": "zenomodule@^0.1.3",
+  "_where": "E:\\zenop\\Documents\\TGR2019\\Shared Files\\Line_API\\Beacon\\rumueraibeacon",
   "author": "Phakhawat Chullamonthon <zeno.phakhawat@hotmail.com> (https://github.com/zenophakhawat/gonoz)",
+  "bugs": {
+    "url": "https://github.com/zenophakhawat/zenomodule/issues"
+  },
   "bundleDependencies": false,
   "deprecated": false,
   "description": "This module actually created by Zeno. The original module still be zenomodule.",
-  "license": "MIT",
-  "main": "index.js",
-  "name": "zenomodule",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "version": "0.1.4",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zenophakhawat/zenomodule.git"
-  },
+  "homepage": "https://github.com/zenophakhawat/zenomodule#readme",
   "keywords": [
     "api",
     "bot",
@@ -49,8 +42,15 @@
     "algorithm",
     "json"
   ],
-  "bugs": {
-    "url": "https://github.com/zenophakhawat/zenomodule/issues"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "zenomodule",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenophakhawat/zenomodule.git"
   },
-  "homepage": "https://github.com/zenophakhawat/zenomodule#readme"
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "version": "0.1.5"
 }
