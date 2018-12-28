@@ -1,4 +1,4 @@
-Zeno Module - Fast and Good for XML reader. Mostly use in Line API project.
+Zeno Module - Module for good searching algorithm from XML. Mostly integrate with Line Developer.
 
 ```js
 const searchinXML = require("zenomodule");
