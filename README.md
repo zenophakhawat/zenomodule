@@ -1,4 +1,4 @@
-Zeno Module - Module for good searching algorithm from XML. Mostly integrate with Line Developer.
+Zeno Module - The module for good searching algorithm from XML. Mostly integrate with Line Development.
 
 The function for line bot communication
 ```js
